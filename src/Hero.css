@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.upper{
+	text-transform: uppercase;
+}
+h1{
+	font-size: 3.7rem;
+	color: white;
+}
+span{
+    
+    font-family: 'Playfair Display', serif;
+
+}
+hr{
+	margin-left: 12em;
+	margin-top: 1em;
+	width: 60%;
+}
+.p-hero{
+	margin-top: 1em;
+	color: white;
+	font-size: 1.6rem;
+	color: rgba(500,250,500,0.6);
+}
+.row-top{
+	width: 100%;
+	height: 7%;
+	display: flex;
+	flex-flow: row wrap;
+	display: inline-flex;
+	align-items: center;
+}.row-center{
+	width: 100vw;
+	height: 93vh;
+	text-align:center;
+	display: flex;
+	justify-content: center;
+}
+.logotipo{
+	margin-left: 10em;
+}
+.img-logo{
+	width: 10em;
+	height: 2em;
+}
+.img-logotipo{
+	width: 10em;
+	height: 10em;
+	margin-top: 13em;
+	margin-bottom:5em; 
+}
+.hero-wrapper{
+	background-size: 100%;
+	background-image: url(./assets/bgintro.jpg);
+	background-attachment:fixed;
+	width: 100vw;
+	height: 100vh;
+}
+.content-hero-center{
+
+}
