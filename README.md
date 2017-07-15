@@ -1,4 +1,4 @@
-#Octalbit
+##Octalbit
 
 This project was hospeded in [octalbit.co](https://octalbit.com).
 
@@ -8,5 +8,5 @@ git clone
 
 npm install
 
-Open ttps://localost:3000
+Open ttps://localhost:3000
 
