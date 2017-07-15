@@ -12,6 +12,7 @@ export default function Contacts(){
 				<div className="row-top-contacts">
 					<h2 className="upper contact">Contact</h2>
 				</div>
+				<div className="column-content">
 				<div className="row-answear-contact">
 					
 					<h4 className="upper">Want to budget?</h4>
@@ -32,6 +33,7 @@ export default function Contacts(){
 							<img src={github} className="img-contact"/>
 						</div>
 					</div>
+				</div>
 				</div>
 			</div>
 		)

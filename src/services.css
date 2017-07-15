@@ -1,6 +1,6 @@
 .services-wrapper{
 	width: 100vw;
-	height: 75vh;
+	height: 60vh;
 	display: flex;
 	flex-flow: row wrap;
 	background-color: white;
@@ -18,7 +18,6 @@ h2.services{
 	font-size: 2.2em;
 }
 .column-center-services{
-	margin-top: 2em;
 	width: 100%;
 	height: 90%;
 	text-align: center;

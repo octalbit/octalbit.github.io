@@ -5,7 +5,6 @@
 	width: 100vw;
 	height: 80vh;
 	display: flex;
-	flex-flow: row wrap;
 }
 .row-top-wrapper{
 	width: 100%;
@@ -19,12 +18,16 @@ h2.contact{
 	font-size: 2.2em;
 	color: white;
 }
+.column-content{
+	width: 80%;
+	display: flex;
+	flex-flow: row wrap;
+}
 .row-answear-contact{
-	width: 100%;
+	width: 80%;
 	height: 90%;
 	display: flex;
 	flex-flow: column wrap;
-	justify-content: center;
 	align-items: center;
 	color: white;
 }
@@ -38,11 +41,9 @@ p.contact{
 }
 .row-socials{
 	align-items: center;
-	display: flex;
-	flex-flow: row wrap;
-	width: 40%;
+	justify-content: center;
+	width: 100%;
 	display:flex;
-	flex-flow: row wrap;
 }
 .img-contact{
 	margin:2em;
