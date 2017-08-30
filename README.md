@@ -1,12 +1,13 @@
-##Octalbit
+* Octalbit
 
 This project was hospeded in [octalbit.co](https://octalbit.com).
 
-To run the project run:
 
-git clone
+* To run the project run:
 
-npm install
+clone the project in your computer
 
-Open ttps://localhost:3000
+npm install or yarn install
+
+npm start or yarn start
 
