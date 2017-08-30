@@ -1,64 +1,60 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-.upper{
+
+*{	margin: 0;	padding: 0; }
+
+.upper{	
 	text-transform: uppercase;
+	@import url('https://fonts.googleapis.com/css?family=Raleway');
+  font-family: 'Raleway', sans-serif;
 }
+
 h1{
-	font-size: 3.7rem;
+	letter-spacing: 0.1em;
+	font-size: 3em;
 	color: white;
+	padding: 1em;
+  font-weight: bold;
 }
 span{
-    
-    font-family: 'Playfair Display', serif;
-
+	font-style: italic;
+	font-weight: 500;
 }
 hr{
-	margin-left: 12em;
-	margin-top: 1em;
-	width: 60%;
-}
-.p-hero{
-	margin-top: 1em;
-	color: white;
-	font-size: 1.6rem;
-	color: rgba(500,250,500,0.6);
-}
-.row-top{
-	width: 100%;
-	height: 7%;
-	display: flex;
-	flex-flow: row wrap;
-	display: inline-flex;
-	align-items: center;
-}.row-center{
-	width: 100vw;
-	height: 93vh;
-	text-align:center;
-	display: flex;
-	justify-content: center;
-}
-.logotipo{
-	margin-left: 10em;
-}
-.img-logo{
-	width: 10em;
-	height: 2em;
-}
-.img-logotipo{
-	width: 10em;
-	height: 10em;
-	margin-top: 13em;
-	margin-bottom:5em; 
+	margin:0 auto;
+	width: 15vw;
 }
 .hero-wrapper{
-	background-size: 100%;
-	background-image: url(./assets/bgintro.jpg);
-	background-attachment:cover;
-	width: 100vw;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
+	background: fixed;
+	background-size: 100% 100%;
+	background-color: #212121;
+	/*background-image:url(./bgintro.jpg);*/ 
 	height: 100vh;
+	width: 100vw;
 }
 .content-hero-center{
-
+	position: absolute;
+}
+.p-hero{
+	font-size: 0.8em;
+	color: rgba(500,250,500,0.6);
+	padding: 1em;
+	font-weigth:light;
+}
+.row-center{
+	width: 100vw;
+	height: 100vh;
+	text-align:center;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+.img-logotipo{
+	padding: 1em;
+	width: 6em;
+	height: 6em;
+	margin-bottom:2em; 
 }
