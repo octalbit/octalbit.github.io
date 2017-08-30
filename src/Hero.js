@@ -1,24 +1,31 @@
 import React from 'react'
 import './Hero.css'
-import logo from './assets/logo-tipo.png'
-import logoimage from './assets/perfil-octalbit-definitivo.png'
+import { componentDidMount } from "react-lifecycle-hoc";
+import logoimage from './perfil-octalbit-definitivo.png'
+import 'particles.js'
 
-export default function Hero(){
+class Hero extends React.Component{
+
+	render(){
 
 	return(
 			<div className="hero-wrapper">
-				<div className="row-top">
-					<a href="#" className="logotipo"><img src={logo}className="img-logo"/></a>
-				</div>
-				<div className="row-center"> 
+				<div className="row-center" id="particles-js"> 
 					<div className="content-hero-center">
 						<img src={logoimage} className="img-logotipo"/>
 						<h1 className="upper"><span>Hello</span>, Welcome to Octalbit</h1>
 						<hr />
-						<p className="upper p-hero">Contraty to popular belief, lorem ipsum is not simply random</p>
+						<p className="upper p-hero">Development of websites, applications and web systems</p>
 					</div>
 				</div>
 			</div>
 
-		)
+		);
+	}
 }
+
+export default componentDidMount(() => {
+  /* eslint-disable no-undef */
+  particlesJS("particles-js", require("./particles.json"));
+  /* eslint-enable no-undef */
+})(Hero);
